@@ -1,0 +1,52 @@
+:root{
+    --bs-gutter-x: 58px !important;
+}
+.container {
+    max-width:clamp(284px, calc(284px + (2294 - 284) * ((100vw - 320px) / (2560 - 320))), 2296px);
+    padding: 0px;
+  }
+.row{
+    --bs-gutter-x: 58px !important;
+}
+
+.navbar-custom {
+    background-color: #9E3FFD !important;
+    padding: 15px !important;
+}
+.navbar-brand img {
+    height: 30px !important;
+}
+.contact-btn {
+    background-color: #9EFD3F !important;
+    color: #9E3FFD !important;
+    border-radius: 20px !important;
+    padding: 5px 15px !important;
+}
+.offcanvas {
+    background-color: #8a2be2 !important;
+}
+.offcanvas .nav-link {
+    color: white;
+    font-size: 18px;
+}
+.navbar-nav{
+    gap: 32px;
+    font-size: 22px;
+}
+.hero-section {
+    background-image: url("/assets/images/svg/Frame 42.png") !important;
+    background-size: cover;  /* Ensures full coverage */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    width: 100%;
+    height: 88vh; /* Ensures full screen height */
+}
+.hreo-title{
+    color: #9E3FFD;
+    font-size: 70px; 
+}
+.hero-pera{
+    color: #9E3FFD;
+    font-size: 20px;
+    font-weight: 500;
+}
