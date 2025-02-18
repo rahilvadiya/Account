@@ -2,7 +2,7 @@
     --bs-gutter-x: 58px !important;
 }
 .container {
-    max-width:clamp(284px, calc(284px + (2294 - 284) * ((100vw - 320px) / (2560 - 320))), 2296px);
+    max-width:clamp(284px, calc(284px + (2294 - 284) * ((100vw - 320px) / (2560 - 320))), 2296px) !important;
     padding: 0px;
   }
 .row{
@@ -10,7 +10,7 @@
 }
 
 .navbar-custom {
-    background-color: #9E3FFD !important;
+    background-color: #407BFF !important;
     padding: 15px !important;
 }
 .navbar-brand img {
@@ -18,12 +18,12 @@
 }
 .contact-btn {
     background-color: #9EFD3F !important;
-    color: #9E3FFD !important;
     border-radius: 20px !important;
     padding: 5px 15px !important;
+    font-weight: 500 !important;
 }
 .offcanvas {
-    background-color: #8a2be2 !important;
+    background-color: #407BFF !important;
 }
 .offcanvas .nav-link {
     color: white;
@@ -34,19 +34,40 @@
     font-size: 22px;
 }
 .hero-section {
-    background-image: url("/assets/images/svg/Frame 42.png") !important;
-    background-size: cover;  /* Ensures full coverage */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling */
+    background-image: url("/assets/images/svg/hero-background.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 88vh; /* Ensures full screen height */
+    height: auto; 
 }
 .hreo-title{
-    color: #9E3FFD;
-    font-size: 70px; 
+    color: #407BFF;
 }
 .hero-pera{
-    color: #9E3FFD;
-    font-size: 20px;
+    color: #407BFF;
     font-weight: 500;
+}
+
+
+.card {
+    border: 2px solid #407BFF;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-body {
+    text-align: center;
+    background-color: #407BFF;
+}
+.btn-custom {
+    background-color: #c3ff00 !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+}
+.card-img-top{
+    height: 245px;
 }

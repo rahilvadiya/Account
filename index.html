@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Side Offcanvas Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-custom navbar-expand-lg px-0">
+        <div class="container p-0">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/images/svg/nav-logo.svg" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-white fw-bold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-white fw-bold" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-white fw-bold" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-white fw-bold" href="#">Services</a>
+                    </li>
+                </ul>
+                <div>
+                    <a class="btn contact-btn fs-6" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end d-lg-none" id="offcanvasNavbar" data-bs-scroll="true" data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a class="btn contact-btn w-100" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                    <p class="hreo-title fw-bold mb-0 mt-4 fs-xxl-84 fs-xl-70 fs-lg-70 fs-md-55 fs-sm-35">Your Trusted Accountant</p>
+                    <p class="hero-pera mt-4 mb-0 fs-xxl-22 fs-xxl-22 fs-lg-18 fs-md-18 fs-sm-18">Helping You Navigate Financial Success</p>
+                    <a class="btn contact-btn mt-5 fs-xxl-18 fs-xxl-18 fs-lg-18 fs-md-18 fs-sm-16" href="#">Contact Us</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="/assets/images/svg/herosection-img.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-0">
+        <div class="row mt-5">
+            <div class="col-md-6 col-12">
+                <p class="fs-xxl-35 fw-bold fs-xxl-35 fs-xl-35 fs-lg-35 fs-md-35 fs-sm-28" style="color: #407BFF;">Meet Victor Matel</p>
+                <p class="fs-4">Journey of SRC </p>
+                <p class="fs-xxl-35 fs-xl-35 fs-lg-35 fs-md-35 fs-sm-24 mt-5" style="text-align: justify;line-height: 54px;">ConsultEdge Advisors is a leading accounting firm dedicated to providing top-notch financial solutions to
+                    businesses of all sizes. With a focus on excellence and integrity, we strive to help our clients achieve
+                    their financial goals.</p>
+            </div>
+            <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="/assets/images/svg/about-img.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center my-5 flex-column">
+            <p class="fs-4 fw-normal" style="color: #407BFF;">Our Services</p>
+            <p class="fs-xxl-35 fs-xl-35 fs-lg-35 fs-md-35 fs-sm-24" style="text-align: center;">Expert Solutions for Your<br> Financial Needs</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 ps-0">
+                <div class="card h-100 border-2 border-primary">
+                    <img src="/assets/images/svg/ourservices-card-01.svg" class="card-img-top" alt="Audit Services">
+                    <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
+                        <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Audit Services</h5>
+                        <p class="card-text fs-6 text-start text-white mb-3">We offer top-notch auditing and audit services, including statutory and company audits.</p>
+                        <a class="btn btn-custom fs-xxl-18 fs-xxl-18 fs-lg-18 fs-md-18 fs-sm-16 " href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ps-0">
+                <div class="card h-100 border-2 border-primary">
+                    <img src="/assets/images/svg/ourservices-card-02.svg" class="card-img-top" alt="GST Services">
+                    <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
+                        <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3"> GST Services</h5>
+                        <p class="card-text fs-6 text-start text-white mb-3">We offer the top online auditing and audit services, online auditing services and tax audits as well as statutory audit and company audits.</p>
+                        <a class="btn btn-custom fs-xxl-18 fs-xxl-18 fs-lg-18 fs-md-18 fs-sm-16 " href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ps-0">
+                <div class="card  h-100 border-2 border-primary">
+                    <img src="/assets/images/svg/ourservices-card-03.svg" class="card-img-top" alt="Accounting & Bookkeeping">
+                    <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
+                        <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Accounting & Bookkeeping</h5>
+                        <p class="card-text fs-6 text-start text-white mb-3">We offer the top online auditing and audit services, online auditing services and tax audits as well as statutory audit and company audits.</p>
+                        <a class="btn btn-custom fs-xxl-18 fs-xxl-18 fs-lg-18 fs-md-18 fs-sm-16 " href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 p-0">
+                <div class="card h-100 border-2 border-primary">
+                    <img src="/assets/images/svg/ourservices-card-04.svg" class="card-img-top" alt="Business Tax Planning">
+                    <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
+                        <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Business Tax Planning</h5>
+                        <p class="card-text fs-6 text-start text-white mb-3">We offer the top online auditing and audit services, online auditing services and tax audits as well as statutory audit and company audits.</p>
+                        <a class="btn btn-custom fs-xxl-18 fs-xxl-18 fs-lg-18 fs-md-18 fs-sm-16 " href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Automatically hide offcanvas when screen size is large
+        function hideOffcanvasOnResize() {
+            if (window.innerWidth >= 992) { // Large screen (lg) size is 992px+
+                let offcanvasElement = document.getElementById('offcanvasNavbar');
+                let offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+                if (offcanvas) {
+                    offcanvas.hide();
+                }
+            }
+        }
+
+        // Run function on resize
+        window.addEventListener('resize', hideOffcanvasOnResize);
+     // font-size 
+const spacingValues = [0,4,10,11,12,13,15,20,25,30,40,50,60,62,66,51,56,9,75,80,82,,88,90,100,160,300,200];
+const fontSizes = {
+  sm: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Small (max-width: 576px)
+  md: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Medium (min-width: 576px)
+  lg: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Large (min-width: 992px)
+  xl: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84],  // Extra-Large (min-width: 1440px)
+  xxl:[11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84]  // Extra-Large (min-width: 1440px)
+};
+function generateResponsiveClasses() {
+  let styleSheet = document.createElement("style");
+  document.head.appendChild(styleSheet);
+
+  let styles = "";
+
+  const breakpoints = {
+    sm: "@media (max-width: 575px) {",
+    md: "@media (min-width: 576px) and (max-width: 991px) {",
+    lg: "@media (min-width: 992px) and (max-width: 1439px) {",
+    xl: "@media (min-width: 1440px) and (max-width:1919px) {",
+    xxl: "@media (min-width:1920px) {"
+  };
+
+  // Generate Font Size Classes
+  Object.entries(fontSizes).forEach(([key, sizes]) => {
+    styles += breakpoints[key]; // Open media query
+    sizes.forEach(size => {
+      styles += `.fs-${key}-${size} { font-size: ${size}px; } `;
+    });
+    styles += "} "; // Close media query
+  });
+
+  // Generate Margin & Padding classes (including mx, my, px, py)
+  Object.entries(breakpoints).forEach(([key, mediaQuery]) => {
+    styles += mediaQuery;
+
+    spacingValues.forEach(value => {
+      styles += `
+        / Margin /
+        .m-${key}-${value} { margin: ${value}px; }
+        .mt-${key}-${value} { margin-top: ${value}px; }
+        .mb-${key}-${value} { margin-bottom: ${value}px; }
+        .ml-${key}-${value} { margin-left: ${value}px; }
+        .mr-${key}-${value} { margin-right: ${value}px; }
+        .mx-${key}-${value} { margin-left: ${value}px; margin-right: ${value}px; }
+        .my-${key}-${value} { margin-top: ${value}px; margin-bottom: ${value}px; }
+
+        / Padding /
+        .p-${key}-${value} { padding: ${value}px; }
+        .pt-${key}-${value} { padding-top: ${value}px; }
+        .pb-${key}-${value} { padding-bottom: ${value}px; }
+        .pl-${key}-${value} { padding-left: ${value}px; }
+        .pr-${key}-${value} { padding-right: ${value}px; }
+        .px-${key}-${value} { padding-left: ${value}px; padding-right: ${value}px; }
+        .py-${key}-${value} { padding-top: ${value}px; padding-bottom: ${value}px; }
+      `;
+    });
+
+    styles += "} "; // Close media query
+  });
+
+  // Apply all styles to <style> tag
+  styleSheet.innerHTML = styles;
+}
+
+// Run function to generate classes
+generateResponsiveClasses();
+
+
+    </script>
+</body>
+
+</html>
