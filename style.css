@@ -46,10 +46,8 @@
     text-transform: uppercase;
 }
 .navbar ul li {
-    opacity: 0.5;
     list-style: none;
     display: inline;
-    margin: 0 20px;
     position: relative;
     text-align: center;
 }
