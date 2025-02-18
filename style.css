@@ -10,17 +10,21 @@
 }
 
 .navbar-custom {
-    background-color: #407BFF !important;
+    background-color: white !important;
     padding: 15px !important;
 }
 .navbar-brand img {
     height: 30px !important;
 }
 .contact-btn {
-    background-color: #9EFD3F !important;
+    border: 2px solid #407BFF !important;
     border-radius: 20px !important;
     padding: 5px 15px !important;
     font-weight: 500 !important;
+}
+.contact-btn:hover {
+    background-color: #407BFF !important;
+    color: white !important;
 }
 .offcanvas {
     background-color: #407BFF !important;
@@ -32,6 +36,41 @@
 .navbar-nav{
     gap: 32px;
     font-size: 22px;
+}
+.nav-link{
+    color: #407BFF !important;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #407BFF;
+    text-transform: uppercase;
+}
+.navbar ul li {
+    opacity: 0.5;
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+}
+.navbar ul li:hover {
+    opacity: 1.0;
+    font-weight: bold;
+}
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #407BFF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
 }
 .hero-section {
     background-image: url("/assets/images/svg/hero-background.png") !important;

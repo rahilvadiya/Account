@@ -25,16 +25,16 @@
             <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link p-0 text-white fw-bold" href="#">Home</a>
+                        <a class="nav-link p-0  fw-bold" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0 text-white fw-bold" href="#">About</a>
+                        <a class="nav-link p-0 fw-bold" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0 text-white fw-bold" href="#">Contacts</a>
+                        <a class="nav-link p-0 fw-bold" href="#">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0 text-white fw-bold" href="#">Services</a>
+                        <a class="nav-link p-0 fw-bold" href="#">Services</a>
                     </li>
                 </ul>
                 <div>
@@ -104,7 +104,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-3 ps-0">
-                <div class="card h-100 border-2 border-primary">
+                <div class="card border-2 border-primary">
                     <img src="/assets/images/svg/ourservices-card-01.svg" class="card-img-top" alt="Audit Services">
                     <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
                         <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Audit Services</h5>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 ps-0">
-                <div class="card h-100 border-2 border-primary">
+                <div class="card border-2 border-primary">
                     <img src="/assets/images/svg/ourservices-card-02.svg" class="card-img-top" alt="GST Services">
                     <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
                         <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3"> GST Services</h5>
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 ps-0">
-                <div class="card  h-100 border-2 border-primary">
+                <div class="card border-2 border-primary">
                     <img src="/assets/images/svg/ourservices-card-03.svg" class="card-img-top" alt="Accounting & Bookkeeping">
                     <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
                         <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Accounting & Bookkeeping</h5>
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 p-0">
-                <div class="card h-100 border-2 border-primary">
+                <div class="card border-2 border-primary">
                     <img src="/assets/images/svg/ourservices-card-04.svg" class="card-img-top" alt="Business Tax Planning">
                     <div class="card-body rounded-bottom d-flex flex-column justify-content-start align-items-start ">
                         <h5 class="card-title fs-4 text-white text-start mt-xl-5 mt-md-4 mt-3">Business Tax Planning</h5>
@@ -148,9 +148,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Automatically hide offcanvas when screen size is large
         function hideOffcanvasOnResize() {
-            if (window.innerWidth >= 992) { // Large screen (lg) size is 992px+
+            if (window.innerWidth >= 992) { 
                 let offcanvasElement = document.getElementById('offcanvasNavbar');
                 let offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
                 if (offcanvas) {
@@ -158,17 +157,14 @@
                 }
             }
         }
-
-        // Run function on resize
         window.addEventListener('resize', hideOffcanvasOnResize);
-     // font-size 
 const spacingValues = [0,4,10,11,12,13,15,20,25,30,40,50,60,62,66,51,56,9,75,80,82,,88,90,100,160,300,200];
 const fontSizes = {
-  sm: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Small (max-width: 576px)
-  md: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Medium (min-width: 576px)
-  lg: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], // Large (min-width: 992px)
-  xl: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84],  // Extra-Large (min-width: 1440px)
-  xxl:[11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84]  // Extra-Large (min-width: 1440px)
+  sm: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84], 
+  md: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84],
+  lg: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84],
+  xl: [11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84],
+  xxl:[11, 12, 14, 16, 18, 22, 24, 28, 32, 35 , 45, 55, 70, 84] 
 };
 function generateResponsiveClasses() {
   let styleSheet = document.createElement("style");
@@ -184,13 +180,12 @@ function generateResponsiveClasses() {
     xxl: "@media (min-width:1920px) {"
   };
 
-  // Generate Font Size Classes
   Object.entries(fontSizes).forEach(([key, sizes]) => {
-    styles += breakpoints[key]; // Open media query
+    styles += breakpoints[key]; 
     sizes.forEach(size => {
       styles += `.fs-${key}-${size} { font-size: ${size}px; } `;
     });
-    styles += "} "; // Close media query
+    styles += "} ";
   });
 
   // Generate Margin & Padding classes (including mx, my, px, py)
