@@ -31,6 +31,7 @@ body{
 }
 .offcanvas {
     background-color: #ffffff !important;
+    width: 80% !important;
 }
 .offcanvas .nav-link {
     color: white;
