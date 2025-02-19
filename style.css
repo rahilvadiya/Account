@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden !important;
+}
 :root{
     --bs-gutter-x: 58px !important;
 }
@@ -27,7 +30,7 @@
     color: white !important;
 }
 .offcanvas {
-    background-color: #407BFF !important;
+    background-color: #ffffff !important;
 }
 .offcanvas .nav-link {
     color: white;
@@ -68,7 +71,6 @@
 
 .navbar ul li:hover::after {
     width: 100%;
-
 }
 .hero-section {
     background-image: url("/assets/images/svg/hero-background.png") !important;
@@ -85,8 +87,6 @@
     color: #407BFF;
     font-weight: 500;
 }
-
-
 .card {
     border: 2px solid #407BFF;
     transition: transform 0.3s ease-in-out;
@@ -107,4 +107,10 @@
 }
 .card-img-top{
     height: 245px;
+}
+@media (max-width:768px) {
+    .card-col{
+        padding-top: 50px;
+    }
+    
 }
