@@ -1,117 +1,149 @@
-body{
-    overflow-x: hidden !important;
+body {
+  overflow-x: hidden !important;
 }
-:root{
-    --bs-gutter-x: 58px !important;
+:root {
+  --bs-gutter-x: 58px !important;
 }
 .container {
-    max-width:clamp(284px, calc(284px + (2294 - 284) * ((100vw - 320px) / (2560 - 320))), 2296px) !important;
-    padding: 0px;
-  }
-.row{
-    --bs-gutter-x: 58px !important;
+  max-width: clamp(
+    284px,
+    calc(284px + (2294 - 284) * ((100vw - 320px) / (2560 - 320))),
+    2296px
+  ) !important;
+  padding: 0px;
+}
+.row {
+  --bs-gutter-x: 58px !important;
 }
 
 .navbar-custom {
-    background-color: white !important;
-    padding: 15px !important;
+  background-color: white !important;
+  padding: 15px !important;
 }
 .navbar-brand img {
-    height: 30px !important;
+  height: 30px !important;
 }
 .contact-btn {
-    border: 2px solid #407BFF !important;
-    border-radius: 20px !important;
-    padding: 5px 15px !important;
-    font-weight: 500 !important;
+  background-color: #ffc440 !important;
+  color: black !important;
+  border-radius: 20px !important;
+  padding: 5px 15px !important;
+  font-weight: 500 !important;
 }
-.contact-btn:hover {
-    background-color: #407BFF !important;
-    color: white !important;
-}
+/* .contact-btn:hover {
+    background-color: #FFC440 !important;
+    color: black !important;
+} */
 .offcanvas {
-    background-color: #ffffff !important;
-    width: 80% !important;
+  background-color: #ffffff !important;
+  width: 80% !important;
 }
 .offcanvas .nav-link {
-    color: white;
-    font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
-.navbar-nav{
-    gap: 32px;
-    font-size: 22px;
+.navbar-nav {
+  gap: 32px;
+  font-size: 22px;
 }
-.nav-link{
-    color: #407BFF !important;
+.nav-link {
+  color: #407bff !important;
 }
 .navbar ul li a {
-    text-decoration: none;
-    color: #407BFF;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #407bff;
+  text-transform: uppercase;
 }
 .navbar ul li {
-    list-style: none;
-    display: inline;
-    position: relative;
-    text-align: center;
+  list-style: none;
+  display: inline;
+  position: relative;
+  text-align: center;
 }
 .navbar ul li:hover {
-    opacity: 1.0;
-    font-weight: bold;
+  opacity: 1;
+  font-weight: bold;
 }
 .navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0;
-    background: #407BFF;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #407bff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
 .hero-section {
-    background-image: url("/assets/images/svg/hero-background.png") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
+  background-image: url("/assets/images/svg/hero-background.png") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
-.hreo-title{
-    color: #407BFF;
+.hreo-title {
+  color: #407bff;
 }
-.hero-pera{
-    color: #407BFF;
-    font-weight: 500;
+.hero-pera {
+  color: #407bff;
+  font-weight: 500;
 }
 .card {
-    border: 2px solid #407BFF;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 5px;
+  border: 2px solid #407bff;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
 }
 .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .card-body {
-    text-align: center;
-    background-color: #407BFF;
+  text-align: center;
+  background-color: #407bff;
 }
 .btn-custom {
-    background-color: #c3ff00 !important;
-    border: none !important;
-    padding: 10px 20px !important;
-    font-weight: 500 !important;
+  background-color: #ffc440 !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
 }
-.card-img-top{
-    height: 245px;
+.card-img-top {
+  height: 245px;
 }
-@media (max-width:768px) {
-    .card-col{
-        padding-top: 50px;
-    }
-    
+.Why-Choose-01 {
+  background: linear-gradient(
+    90.59deg,
+    rgba(248, 144, 16, 0.05) -23.45%,
+    rgba(64, 123, 255, 0.05) 97.24%,
+    rgba(251, 176, 22, 0.05) 152.06%
+  );
+}
+ul {
+  list-style: none; /* Default bullets hatane ke liye */
+  padding: 0;
+}
+
+ul .Why-Choose-dit {
+  padding-left: 8px;
+  list-style-image: url("/assets/images/svg/why-chuse-us-icon.svg");
+  margin-bottom: 10px;
+}
+.card-size {
+  width: 383px;
+  max-height: 209px;
+  gap: 25.84px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .card-col {
+    padding-top: 50px;
+  }
 }
