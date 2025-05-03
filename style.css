@@ -142,6 +142,9 @@ ul .Why-Choose-dit {
   padding-left: 24px;
   border-radius: 20px;
 }
+.w-10{
+  width: 10% !important;
+}
 @media (max-width: 768px) {
   .card-col {
     padding-top: 50px;
